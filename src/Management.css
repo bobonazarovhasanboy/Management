@@ -1,4 +1,4 @@
-.container {
+.management.container {
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	background-color: #fff;
 	border-radius: 5px;
@@ -6,11 +6,11 @@
 	position: relative;
 	width: 900px;
 }
-.text-start {
+.management .text-start {
 	padding-left: 50px;
 }
 
-.card-container {
+.management .card-container {
 	padding: 0;
 	margin: 0;
 }
@@ -23,11 +23,11 @@ body > * {
 	color: #373435;
 }
 
-.card-box {
+.management .card-box {
 	font-size: 1em;
 }
 
-.card-tabs {
+.management .card-tabs {
 	margin-right: 0;
 	overflow: visible;
 	display: flex;
@@ -40,7 +40,7 @@ body > * {
 	margin-bottom: 15px;
 }
 
-.custom-tabs .nav-tabs {
+.management .custom-tabs .nav-tabs {
 	border-bottom: 2px solid #007bff;
 	padding: 5px 20px;
 	margin-top: 0;
@@ -52,7 +52,7 @@ body > * {
 	list-style: none;
 }
 
-.custom-tabs .nav-item .nav-link {
+.management .custom-tabs .nav-item .nav-link {
 	margin-right: 0;
 	/* width: 118px; */
 	height: 38px;
@@ -67,29 +67,29 @@ body > * {
 	border-radius: 0;
 }
 
-.custom-tabs .nav-item .nav-link.active {
+.management .custom-tabs .nav-item .nav-link.active {
 	background-color: #007bff;
 	color: white;
 }
 
-.custom-collapse .collapse.show {
+.management .custom-collapse .collapse.show {
 	background-color: #f8f9fa;
 	border: 1px solid #007bff;
 }
 
 
-.mt-4{
+.management .mt-4{
 	display: block;
 	justify-content:start;
 	align-items: center;
 	
 }
 
-.mt-4 .iconsGram {	
+.management .mt-4 .iconsGram {	
 	width: 30px;
 	height: 30px;
 }
 
-.mt-4 a {
+.management .mt-4 a {
 	margin-left: 5px;
 }
